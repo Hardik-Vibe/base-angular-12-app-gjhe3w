@@ -1,0 +1,27 @@
+:host {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #eee;
+      height: 80px;
+      margin-bottom: 2px;
+    }
+    .body {
+      display: flex;
+      .left-section {
+        width: 250px;
+      }
+      .right-section {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        background-color: #eee;
+      }
+    }
+  }
+}
